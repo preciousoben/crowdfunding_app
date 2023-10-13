@@ -1,0 +1,73 @@
+:root {
+    --primary-color: #00cc66;
+    --secondary-color: #ffffff;
+    --text-color: #333;
+  }
+  body {
+    font-family: 'Arial', sans-serif;
+  }
+  h1, h2, h3 {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+  }
+  .btn {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #008040; /* Darker shade of green on hover */
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  img {
+    border: 1px solid #ddd;
+    box-shadow: 3px 3px 5px #888888;
+  }
+/* Navigation Bar */
+.navbar {
+    background-color: var(--primary-color); /* Use your primary color */
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Navigation List */
+  .nav {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  /* Navigation List Items */
+  .nav-item {
+    margin: 0;
+  }
+  
+  /* Navigation Links */
+  .nav-link {
+    text-decoration: none;
+    color: var(--secondary-color); /* Use your secondary color */
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  /* Navigation Link Hover Effect */
+  .nav-link:hover {
+    color: #008040; /* Darker shade of green on hover */
+  }
+            
